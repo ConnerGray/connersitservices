@@ -122,6 +122,11 @@ a:hover {
     line-height: 35px;
 }
 
+.quote-section {
+    margin: auto;
+    height: 25vh;
+}
+
 .quote-content {
     display: flex;
     flex-direction: column;
@@ -139,7 +144,7 @@ a:hover {
 
 /* footer */
 footer {
-    margin: 20px auto auto auto;
+    margin: 40px auto auto auto;
     background-color: var(--black);
     height: 5vh;
 }
