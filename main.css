@@ -114,6 +114,7 @@ a:hover {
 
 .services-content h1 {
     margin-bottom: 10px;
+    color: var(--red);
 }
 
 .services-content li {
@@ -126,6 +127,10 @@ a:hover {
     flex-direction: column;
     align-items: center;
     text-align: center;
+}
+
+.quote-content h1 {
+    color: var(--red);
 }
 
 .quote-content p {
