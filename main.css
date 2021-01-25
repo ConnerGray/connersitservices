@@ -35,6 +35,7 @@ header {
 
 .menu-item {
     margin-right: 20px;
+    transition: all .2s ease-in-out;
 }
 
 a {
@@ -72,8 +73,8 @@ a:hover {
     font-size: 2rem;
 }
 
-.hero-btn {
-    margin-top: 10px;
+.btn {
+    margin-top: 20px;
     padding: 7px;
     border: none;
     border-radius: 5px;
@@ -81,15 +82,18 @@ a:hover {
     color: var(--background);
     font-size: 16px;
     transition: all .2s ease-in-out;
+}
+
+.hero-btn {
     width: 25%;
 }
 
-.hero-btn:hover {
+.btn:hover, .menu-item:hover {
     transform: scale(1.1);
 }
 
 /* Services Section */
-.services-container {
+.services-container, .quote-container {
     background-color: var(--gray);
     width: 75%;
     padding: 20px;
@@ -103,6 +107,40 @@ a:hover {
     align-items: center;
 }
 
+.services-content h1 {
+    margin-bottom: 10px;
+}
+
+.services-content li {
+    font-size: 18px;
+    line-height: 35px;
+}
+
+.quote-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.quote-content p {
+    margin-top: 5px;
+}
+
+/* footer */
+footer {
+    margin: 20px auto auto auto;
+    background-color: var(--black);
+    height: 5vh;
+}
+
+.footer-container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--background)
+}
 
 
 
