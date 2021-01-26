@@ -16,6 +16,10 @@ body {
     background-color: var(--gray);
 }
 
+html{
+    scroll-behavior: smooth;;
+  }
+
 /* Header */
 header {
     background-color: var(--red);
@@ -144,7 +148,7 @@ a:hover {
 
 .quote-section {
     margin: auto;
-    height: auto;
+    height: 20vh;
     background-color: var(--red);
 }
 
@@ -232,8 +236,8 @@ footer {
 
 /* form styling */
 .form-section {
-    height: 60vh;
-    margin: 20px auto 20px auto;
+    height: auto;
+    margin: 20px;
 }
 
 .form-container {
@@ -275,7 +279,7 @@ footer {
     }
    
     .quote-section {
-        height: 30vh;
+        height: 20vh;
     }
 
     .services-section {
