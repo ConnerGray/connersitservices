@@ -208,7 +208,7 @@ footer {
 }
 
 .contact-container {
-    padding:20px;
+    padding:30px;
     height: 100%;
 }
 
@@ -269,6 +269,7 @@ footer {
 @media screen and (min-width: 1200px) {
     .hero-section, .contact-section {
         height: 40vh;
+        margin: auto;
     }
    
     .quote-section {
@@ -276,7 +277,7 @@ footer {
     }
 
     .services-section {
-        height: 30vh;
+        height: auto;
     }
 
     .services-grid-container {
@@ -301,6 +302,15 @@ footer {
     .form {
         margin: auto;
         width: 30%;
+    }
+}
+
+@media screen and (min-width: 700px) {
+
+    .contact-container {
+        width: 50%;
+        margin: auto;
+        padding: 0px;
     }
 
 }
