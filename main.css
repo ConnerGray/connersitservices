@@ -16,10 +16,6 @@ body {
     background-color: var(--gray);
 }
 
-html{
-    scroll-behavior: smooth;;
-  }
-
 /* Header */
 header {
     background-color: var(--red);

@@ -10,12 +10,14 @@
   <meta content="width=device-width, initial-scale=1" name="viewport" />
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;0,500;1,600&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+  <script src="scripts.js"></script>
 
   <link rel="stylesheet" href="./main.css">
 </head>
 
 <body>
-  <script src="js/scripts.js"></script>
+  
 
   <!-- Header --> 
   <header>
@@ -25,9 +27,9 @@
 
         <nav>
             <ul class="menu">
-              <a href="index.html"><li class="menu-item">Home</li></a>
-              <a href="#about"><li class="menu-item">About</li></a>
-              <a href="#quote-id"><li>Contact</li></a>
+              <li class="menu-item"><a href="index.html" data-page="home">Home</a></li>
+              <li class="menu-item"><a href="#about" data-page="home">About</a></li>
+              <li class="menu-item"><a href="#quote-id" data-page="home">Contact</a></li>
             </ul>
         <nav>
 
@@ -142,4 +144,5 @@
   </footer>
 
 </body>
+
 </html>
