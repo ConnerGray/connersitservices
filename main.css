@@ -103,10 +103,12 @@ a:hover {
 
 .services-container {
     padding: 30px;
+    height: 100%;
 }
 
 .services-content {
     margin: auto;
+    height: 100%;
 }
 
 .services-grid-container {
@@ -115,6 +117,8 @@ a:hover {
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 0px;
     grid-row-gap: 20px;
+    height: 100%;
+    justify-content: center;
 }
 
 .services-grid-item {
@@ -263,13 +267,17 @@ footer {
     }
    
     .quote-section {
-        height: 20vh;
+        height: 30vh;
+    }
+
+    .services-section {
+        height: 30vh;
     }
 
     .services-grid-container {
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
         grid-column-gap: 50px;
-        width: 100%;
+
     }
 
     .services-grid-item {
